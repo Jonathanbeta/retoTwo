@@ -1,0 +1,55 @@
+
+<meta charset="UTF-8">
+
+<h1>Programa2</h1>
+
+<script>
+
+	function saltarlinea(){
+
+		document.write("<br>");	
+		document.write("<br>");
+		document.write("<br>");
+	
+	}
+
+	function imprimir (frase) {
+
+		document.write(frase)
+		saltarlinea();
+	}
+
+	var yo = 30;
+	var hermana = 26;
+
+	imprimir("la diferencia de edad entre mi hermana y yo es= " + (yo-hermana));
+
+	// este código calcula las edades de juan pedro y carlos
+	var year = 2025;
+
+	imprimir("hola amigos")
+
+
+	imprimir("juan tiene: "+(year-2000)+" años");
+
+	imprimir("pedro tiene: "+(year-1995)+" años");
+	
+	year = 2030;
+	imprimir("carlos tiene: "+(year-2005)+" años");
+
+	function mostrarAlerta(mensaje) {
+        alert("***" + mensaje + "***");
+    }
+
+    var edad1 = 10;
+    var edad2 = 20;
+    var edad3 = 30;
+    var totalEdades = edad1 + edad2 + edad3;
+    var promedioEdades = totalEdades/3;
+
+    mostrarAlerta("Total de edades es " + totalEdades);
+    mostrarAlerta("El promedio de las edades es " +  promedioEdades);
+	
+
+</script>
+
